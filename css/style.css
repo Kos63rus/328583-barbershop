@@ -1,0 +1,31 @@
+body {
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: bold;
+  font-family: PT Sans Narrow;
+}
+
+.features-name {
+  font-size: 30px;
+  line-height: 42px;
+  color: #f7f4f1;
+}
+
+.index-content-title,
+.catalog-item-content-title,
+.catalog-content-title,
+.price-content-title {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.catalog-item-features-title,
+.producers-title,
+.groups-title,
+.price-features-title,
+.price-about-us-title,
+.price-our-services-title {
+  font-size: 24px;
+  line-height: 30px;
+}
