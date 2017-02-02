@@ -5,10 +5,10 @@
     <title>Барбершоп «Бородинский»</title>
     <link href="css\style.css" rel="stylesheet">
   </head>
-  <body>
-    <header class="main-header">
-      <div class="container">
-        <nav class="main-navigation">
+  <body class="catalog-body">
+    <header class="catalog-header">
+      <div class="main-header-layout container">
+        <nav class="catalog-navigation">
           <div class="nav-logo">
             <a href="index.html" title="На главную">
               <img src="img\navigation-logo.png" width="111" height="24" alt="Барбершоп «Бородинский»">
@@ -37,7 +37,7 @@
         </div>
       </div>
     </header>
-    <main class="container">
+    <main class="catalog-container">
       <div class="catalog-heading">
         <h1 class="catalog-content-title">Средства для ухода</h1>
         <ul class="breadcrumbs">
@@ -54,8 +54,8 @@
       </div>
       <div class="filters-box">
         <form class="filters-box-form" action="https://echo.htmlacademy.ru" method="post">
+        <h2 class="producers-title">Производители:</h2>
         <div class="producers">
-          <h2 class="producers-title">Производители:</h2>
             <label>
               <input name="Baxter-of-California" type="checkbox" checked>Baxter of California
             </label>
@@ -75,8 +75,8 @@
               <input name="American-Crew" type="checkbox" checked>American Crew
             </label>
         </div>
+        <h2 class="groups-title">Группы товаров:</h2>
         <div class="groups">
-          <h2 class="groups-title">Группы товаров:</h2>
             <label>
               <input name="groups" type="radio" value="shaving-items">Бритвенные принадлежности
             </label>
@@ -86,10 +86,10 @@
             <label>
               <input name="groups" type="radio" value="accessories">Аксессуары
             </label>
-          <button class="btn catalog-show" type="submit">
-            Показать
-          </button>
         </div>
+        <button class="btn catalog-show" type="submit">
+          Показать
+        </button>
         </form>
       </div>
       <div class="items-list">
@@ -214,7 +214,7 @@
       </div>
     </main>
     <footer class="main-footer">
-      <div class="container">
+      <div class="main-footer-layout container">
         <section class="footer-contacts">
           Барбершоп «Бородинский»<br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
